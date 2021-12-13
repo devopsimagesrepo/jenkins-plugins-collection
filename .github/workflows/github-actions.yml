@@ -35,5 +35,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: opendevopsrepo/jenkins-plugins-collection:${{ env.VERSION }}
+          tags: devopsimagesrepo/jenkins-plugins-collection:${{ env.VERSION }}
 
